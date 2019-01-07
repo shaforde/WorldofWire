@@ -5,11 +5,11 @@ one:
   start_date: MyString
   end_date: MyString
   instructor: MyString
-  student: MyString
+  students: MyString
 
 two:
   name: MyString
   start_date: MyString
   end_date: MyString
   instructor: MyString
-  student: MyString
+  students: MyString
