@@ -4,8 +4,7 @@ class CreateCohorts < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :start_date
       t.string :end_date
-      t.string :instructor
-      t.string :students
+      
 
       t.timestamps
     end
