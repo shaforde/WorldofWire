@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
  
+  get 'courses/Instructors'
+  get 'courses/Students'
+  get 'courses/Cohorts'
   # /
   root to:'index#index'
   
