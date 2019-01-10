@@ -1,0 +1,11 @@
+<h1>All Students</h1>
+<div class="allstudents">
+    <%@students.each do |student|%>
+    <h2> <%=student.first_name%> <%=student.last_name%>  </h2>
+    <p><%=student.age%> </p>
+    <p><%=student.education%> </p>
+    <a href="/student/<%= student.id %>">  DELETE</a>
+    <a href="/student/<%= student.id %>">  EDIT</a>
+    
+    <% end %>
+</div>

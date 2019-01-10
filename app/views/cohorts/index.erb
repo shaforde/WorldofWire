@@ -1,0 +1,11 @@
+<h1>All Cohorts</h1>
+<div class="allcohorts">
+    <%@cohorts.each do |cohort|%>
+    <h2> <%=cohort.name%>  </h2>
+    <p> <%=cohort.start_date%> </p>
+    <p> <%=cohort.end_date%> </p>
+    <p> <%=cohort.course_id%> </p>
+    <a href="/cohort/<%= cohort.id %>">  DELETE</a>
+    <a href="/cohort/<%= cohort.id %>">  EDIT</a>
+    <% end %>
+</div>

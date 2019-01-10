@@ -1,0 +1,10 @@
+<h1>All Courses</h1>
+<div class="allcourses">
+    <%@courses.each do |course|%>
+    <h2> <%=course.name%></h2>
+    <p><%=course.class_hours%> </p>
+    <a href="/course/<%= course.id %>">  DELETE</a>
+    <a href="/course/<%= course.id %>">  EDIT</a>
+    
+    <% end %>
+</div>

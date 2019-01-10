@@ -1,0 +1,11 @@
+<h1>All Instructors</h1>
+<div class="allinstructors">
+    <%@instructors.each do |instructor|%>
+    <h2> <%=instructor.first_name%> <%=instructor.last_name%>  </h2>
+    <p><%=instructor.age%> </p>
+    <p><%=instructor.education%> </p>
+    <a href="/instructor/<%= instructor.id %>">  DELETE</a>
+    <a href="/instructor/<%= instructor.id %>">  EDIT</a>
+    
+    <% end %>
+</div>
