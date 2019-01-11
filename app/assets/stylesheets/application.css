@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+body{
+    background-color: rgb(65, 179, 179);
+}
+        
+header{
+    background-color: rgb(233, 132, 96);
+    width: 100%;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+    margin: 0px;
+}
+#navbar{
+    text-align: center;
+    background-color: rgb(233, 132, 96);
+    height: 50px;
+}
+ul{
+    
+}
+li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18pt;
+}
+.allstudents, .allcourses, .allcohorts, .allinstructors{
+    border-top-style: dotted;
+    text-align: center;
+}
+.instructors {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .instructors:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
